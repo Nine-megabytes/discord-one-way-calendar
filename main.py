@@ -33,7 +33,6 @@ headers = {
 }
 
 # 定义请求 URL，包括要发送消息的频道 ID
-# discord_url = os.environ["discord_url"]
 discord_url = "https://discord.com/api/v10/channels/1091667161426182234/messages"
 url = discord_url
 

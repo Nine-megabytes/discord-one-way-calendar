@@ -5,7 +5,10 @@ import time
 from datetime import datetime
 from datetime import timedelta
 
-today_date = time.strftime("%Y/%m%d", time.localtime())
+time_stamp = time.time()
+utc_time = datetime.utcfromtimestamp(time_stamp)
+time1 = (utc_time + timedelta(hours=+8))
+today_date = time1.strftime("%Y/%m%d")
 calendar_url = "https://img.owspace.com/Public/uploads/Download/" + today_date + ".jpg"
 
 # 添加时间戳

@@ -18,7 +18,7 @@ time1 = str(utc_time + timedelta(hours=+8))
 
 # 定义要发送的消息
 message = {
-      "content": "@everyone This is today's one-way calendar"+"\n Time(UTC+8):"+time1,
+      "content": "This is today's one-way calendar"+"\n Time(UTC+8):"+time1,
       "embeds": [
         {
           "image": {
